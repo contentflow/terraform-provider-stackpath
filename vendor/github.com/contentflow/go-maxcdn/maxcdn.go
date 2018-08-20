@@ -255,8 +255,8 @@ func (max *MaxCDN) Request(method, endpoint string, form url.Values) (*http.Resp
 			req.Body = ioutil.NopCloser(strings.NewReader(form.Encode()))
 		}
 
-		// Only post needs a signed form.
-		if method != "POST" {
+		// Only post needs a signed form. // PUT needs it also
+		if method != "POST" && method != "PUT" {
 			form = nil
 		}
 	}

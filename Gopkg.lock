@@ -96,12 +96,12 @@
   revision = "4a1e882c79dcf4ec00d2e29fac74b9c8938d5052"
 
 [[projects]]
-  digest = "1:367499ece416f76cc476d46b93d17563cf8c138e120bebb4b9d6ebc41b821ea4"
+  branch = "master"
+  digest = "1:935dfceb055ad8b0671c3f280f1575adb266bb662e07abd16a7955c0aa49a23d"
   name = "github.com/contentflow/go-maxcdn"
   packages = ["."]
   pruneopts = "UT"
-  revision = "9f915d2a2776a944e9ffbb81139a919ca78b7aa8"
-  version = "v4"
+  revision = "9efe3577aba2f399fe8e1e3d9d939c34a3cc50f8"
 
 [[projects]]
   branch = "master"
